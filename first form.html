@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<style type="text/css">
+		h1{
+			font-style: italic;
+        	color: rgba(50,150,30,0.85);
+        	font-size: 50px;
+        	font-family: raleway;
+        	background-color: white;
+		}
+		body{
+			background-image: url(http://hr.ccs.k12.nc.us/files/2016/10/Forms.jpg); 
+			font-style: all;
+			font-size: 30px;
+			color:white;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		form{
+			background-color: gray;
+		}
+	</style>
+</head>
+<body>
+	<center>
+	<h1>Register</h1>
+	<form>
+	<div>
+		<label for="First Name">First Name:</label>
+		<input id="First Name" type="text" required placeholder="Enter first name here" name="First Name">
+	</div>
+    <div>
+		<label for="Last Name">Last Name:</label>
+		<input id="Last Name" type="text" required placeholder="Enter last name here" name="Last Name">
+	</div>
+	<div>
+		<label for="Male">Male</label>
+	    <input id="Male" type="radio" name="Sex">
+	    <label for="Female">Female</label>
+	    <input id="Female" type="radio" name="Sex">
+	    <label for="Others">Others</label>
+	    <input id="Others" type="radio" name="Sex">
+	</div>
+    <div>
+	    <label for="Email">Email:</label>
+	    <input id="Email" type="email" required placeholder="your email">
+	</div>
+    <div>
+	    <label for="Password">Password:</label>
+	    <input id="Password" type="Password" required >
+	</div>
+	<div>
+		<label>
+		Birthday:
+		<select name="Month">
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			<option>Apr</option>
+			<option>May</option>
+			<option>Jun</option>
+			<option>July</option>
+			<option>Aug</option>
+			<option>Sep</option>
+			<option>Oct</option>
+			<option>Nov</option>
+			<option>Dec</option>
+		</select>
+		<select name="Date">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+			<option>13</option>
+			<option>14</option>
+			<option>15</option>
+			<option>16</option>
+			<option>17</option>
+			<option>18</option>
+			<option>19</option>
+			<option>20</option>
+			<option>21</option>
+			<option>22</option>
+			<option>23</option>
+			<option>24</option>
+			<option>25</option>
+			<option>26</option>
+			<option>27</option>
+			<option>28</option>
+			<option>29</option>
+			<option>30</option>
+			<option>31</option>
+		</select>
+		<select name="Year">
+			<option>2011</option>
+			<option>2012</option>
+			<option>2013</option>
+			<option>2014</option>
+		</select>
+	    </label>
+	</div>
+
+	<div>
+		<label for="I agree to all the terms and conditions">I agree to all the terms and conditions</label>
+	    <input id="I agree to all the terms and conditions" type="checkbox" required >
+    </div>
+	<button>submit</button>
+
+</form>
+</center>
+</body>
+</html>
